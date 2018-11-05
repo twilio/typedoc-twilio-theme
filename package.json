@@ -1,8 +1,7 @@
 {
   "name": "typedoc-twilio-theme",
-  "description": "Default themes for TypeDoc.",
-  "version": "0.5.0",
-  "homepage": "http://typedoc.org/",
+  "description": "Typedoc theme used for Twilio's Client.js",
+  "version": "1.0.0",
   "main": "bin/plugin.js",
   "files": [
     "bin",
@@ -14,16 +13,12 @@
     "build": "npm run clean && npm run grunt",
     "prepublish": "npm run build"
   },
-  "author": {
-    "name": "Sebastian Lenz",
-    "url": "http://www.sebastian-lenz.de/"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sebastian-lenz/typedoc-default-themes.git"
+    "url": "git://github.com:twilio/typedoc-twilio-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/sebastian-lenz/TypeDoc/issues"
+    "url": "https://github.com/twilio/typedoc-twilio-theme/issues"
   },
   "license": "Apache-2.0",
   "engines": {

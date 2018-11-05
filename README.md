@@ -1,17 +1,22 @@
-# Default themes for TypeDoc
+# Twilio's Client.js theme for TypeDoc
 
-This module contains the default themes of TypeDoc.
-Visit http://typedoc.org/ to learn more about TypeDoc.
+[TypeDoc](http://typedoc.io/) is a documentation generator for TypeScript projects.
+
+## Usage
+
+```bash
+$ npm install typedoc typedoc-twilio-theme --save-dev
+$ node_modules/.bin/typedoc --theme node_modules/typedoc-twilio-theme/bin --out doc path/to/ts/dir
+```
+
+See TypeDoc documentation (http://typedoc.io/) to learn more about TypeDoc.
 
 
-## Contributing
+## Credit
 
-Contributions are welcome and appreciated. You can find TypeDoc on GitHub, feel free to start
-an issue or create a pull requests:<br>
-[https://github.com/TypeStrong/typedoc](https://github.com/TypeStrong/typedoc)
+Adapted from the [default TypeDoc themes](https://github.com/TypeStrong/typedoc-default-themes), which
+was authored and Copyright 2015 by [Sebastian Lenz](http://www.sebastian-lenz.de) under the Apache
+License 2.0.
 
-
-## License
-
-Copyright (c) 2015 [Sebastian Lenz](http://www.sebastian-lenz.de).<br>
-Licensed under the Apache License 2.0.
+Changes are cosmetic, and primarily involve hiding private/protected class members for clean
+consumer-facing API documentation.
