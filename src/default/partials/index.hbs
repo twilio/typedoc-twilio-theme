@@ -3,7 +3,7 @@
     <h2>Index</h2>
     <section class="tsd-panel tsd-index-panel">
         <div class="tsd-index-content">
-            {{#each groups}}
+            {{#eachWithPublic groups}}
                 <section class="tsd-index-section {{cssClasses}}">
                     <h3>{{title}}</h3>
                     <ul class="tsd-index-list">
@@ -12,7 +12,7 @@
                         {{/each}}
                     </ul>
                 </section>
-            {{/each}}
+            {{/eachWithPublic}}
         </div>
     </section>
 </section>

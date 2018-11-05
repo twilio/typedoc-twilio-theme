@@ -102,7 +102,7 @@ module.exports = function(grunt)
                 files: [{
                     expand: true,
                     cwd: 'src/default',
-                    src: ['**/*.hbs', '**/*.png'],
+                    src: ['**/*.js', '**/*.hbs', '**/*.png'],
                     dest: 'bin/default'
                 }]
             },

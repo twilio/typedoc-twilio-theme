@@ -13,7 +13,7 @@
             {{#each sources}}
                 {{#if url}}
                     <li>Defined in <a href="{{url}}">{{fileName}}:{{line}}</a></li>
-                {{else}}
+                {{else if 0}}
                     <li>Defined in {{fileName}}:{{line}}</li>
                 {{/if}}
             {{/each}}
