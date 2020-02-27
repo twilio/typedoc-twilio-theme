@@ -9,7 +9,7 @@ $ npm install typedoc typedoc-twilio-theme --save-dev
 $ node_modules/.bin/typedoc --theme node_modules/typedoc-twilio-theme/bin --out doc path/to/ts/dir
 ```
 
-See TypeDoc documentation (http://typedoc.io/) to learn more about TypeDoc.
+See TypeDoc documentation (https://typedoc.org/) to learn more about TypeDoc.
 
 
 ## Credit
